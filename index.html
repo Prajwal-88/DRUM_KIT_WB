@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="./script.js" defer></script>
+</head>
+<body class="bg-people bg-cover bg-no-repeat min-h-screen grid place-items-center">
+    <div class="keys flex gap-6 flex-wrap">
+        <div class="key border-black border-4  w-[5rem] flex items-center justify-center flex-col overflow-hidden py-2 bg-black bg-opacity-50 px-12 cursor-pointer active:scale-105  active:border-yellow-500 active:shadow-[5px_5px_50px_-10px_rgba(234,179,8)] transition-all duration-[0.07s]" data-key="KeyA">
+            <span class="text-white text-3xl font-serif font-bold">A</span>
+            <p class="text-yellow-400 uppercase text-[12px] font-semibold">clap</p>
+        </div>
+        <div class="key border-black border-4  w-[5rem] flex items-center justify-center flex-col overflow-hidden py-2 bg-black bg-opacity-50 px-12 cursor-pointer active:scale-105  active:border-yellow-500 active:shadow-[5px_5px_50px_-10px_rgba(234,179,8)] transition-all duration-[0.07s]" data-key="KeyS">
+            <span class="text-white text-3xl font-serif font-bold">S</span>
+            <p class="text-yellow-400 uppercase text-[12px] font-semibold">hihat</p>
+        </div>
+        <div class="key border-black border-4  w-[5rem] flex items-center justify-center flex-col overflow-hidden py-2 bg-black bg-opacity-50 px-12 cursor-pointer active:scale-105  active:border-yellow-500 active:shadow-[5px_5px_50px_-10px_rgba(234,179,8)] transition-all duration-[0.07s]" data-key="KeyD">
+            <span class="text-white text-3xl font-serif font-bold">D</span>
+            <p class="text-yellow-400 uppercase text-[12px] font-semibold">kick</p>
+        </div>
+        <div class="key border-black border-4  w-[5rem] flex items-center justify-center flex-col overflow-hidden py-2 bg-black bg-opacity-50 px-12 cursor-pointer active:scale-105  active:border-yellow-500 active:shadow-[5px_5px_50px_-10px_rgba(234,179,8)] transition-all duration-[0.07s]" data-key="KeyF">
+            <span class="text-white text-3xl font-serif font-bold">F</span>
+            <p class="text-yellow-400 uppercase text-[12px] font-semibold">openhat</p>
+        </div>
+        <div class="key border-black border-4  w-[5rem] flex items-center justify-center flex-col overflow-hidden py-2 bg-black bg-opacity-50 px-12 cursor-pointer active:scale-105  active:border-yellow-500 active:shadow-[5px_5px_50px_-10px_rgba(234,179,8)] transition-all duration-[0.07s]" data-key="KeyG">
+            <span class="text-white text-3xl font-serif font-bold">G</span>
+            <p class="text-yellow-400 uppercase text-[12px] font-semibold">boom</p>
+        </div>
+        <div class="key border-black border-4  w-[5rem] flex items-center justify-center flex-col overflow-hidden py-2 bg-black bg-opacity-50 px-12 cursor-pointer active:scale-105  active:border-yellow-500 active:shadow-[5px_5px_50px_-10px_rgba(234,179,8)] transition-all duration-[0.07s]" data-key="KeyH">
+            <span class="text-white text-3xl font-serif font-bold">H</span>
+            <p class="text-yellow-400 uppercase text-[12px] font-semibold">ride</p>
+        </div>
+        <div class="key border-black border-4  w-[5rem] flex items-center justify-center flex-col overflow-hidden py-2 bg-black bg-opacity-50 px-12 cursor-pointer active:scale-105  active:border-yellow-500 active:shadow-[5px_5px_50px_-10px_rgba(234,179,8)] transition-all duration-[0.07s]" data-key="KeyJ">
+            <span class="text-white text-3xl font-serif font-bold">J</span>
+            <p class="text-yellow-400 uppercase text-[12px] font-semibold">snare</p>
+        </div>
+        <div class="key border-black border-4  w-[5rem] flex items-center justify-center flex-col overflow-hidden py-2 bg-black bg-opacity-50 px-12 cursor-pointer active:scale-105  active:border-yellow-500 active:shadow-[5px_5px_50px_-10px_rgba(234,179,8)] transition-all duration-[0.07s]" data-key="KeyK">
+            <span class="text-white text-3xl font-serif font-bold">K</span>
+            <p class="text-yellow-400 uppercase text-[12px] font-semibold">tom</p>
+        </div>
+        <div class="key border-black border-4  w-[5rem] flex items-center justify-center flex-col overflow-hidden py-2 bg-black bg-opacity-50 px-12 cursor-pointer active:scale-105  active:border-yellow-500 active:shadow-[5px_5px_50px_-10px_rgba(234,179,8)] transition-all duration-[0.07s]" data-key="KeyL">
+            <span class="text-white text-3xl font-serif font-bold">L</span>
+            <p class="text-yellow-400 uppercase text-[12px] font-semibold">tink</p>
+        </div>
+    </div>
+
+    <audio data-key="KeyA" src="./sounds/clap.wav"></audio>
+    <audio data-key="KeyS" src="./sounds/hihat.wav"></audio>
+    <audio data-key="KeyD" src="./sounds/kick.wav"></audio>
+    <audio data-key="KeyF" src="./sounds/openhat.wav"></audio>
+    <audio data-key="KeyG" src="./sounds/boom.wav"></audio>
+    <audio data-key="KeyH" src="./sounds/ride.wav"></audio>
+    <audio data-key="KeyJ" src="./sounds/snare.wav"></audio>
+    <audio data-key="KeyK" src="./sounds/tom.wav"></audio>
+    <audio data-key="KeyL" src="./sounds/tink.wav"></audio>
+</body>
+</html>
